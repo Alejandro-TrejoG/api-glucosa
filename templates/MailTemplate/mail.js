@@ -1,6 +1,6 @@
-const msgPorDebajo = "Mensaje por debajo"
-const msgNormal = "Mensaje Bien"
-const msgPorEncima = "Mensaje por encima"
+const msgPorDebajo = "La concentración de glucosa presentada en la muestra es menor de lo normal, recomendamos acudir con un profesional"
+const msgNormal = " La concentración de glucosa en la muestra esta dentro del rango normal"
+const msgPorEncima = "La concentración de glucosa presentada en la muestra esta por encima de lo normal, recomendamos acudir con un profesional"
 
 const HTMLmail = (nombre, tipoMuestra, concentracion) => {
 
