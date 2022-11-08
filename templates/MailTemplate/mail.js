@@ -219,7 +219,7 @@ const HTMLmail = (nombre, tipoMuestra, concentracion) => {
     </table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="6cf92250-86a4-41d8-865a-ae5fb2569556.1.1" data-mc-module-version="2019-10-22">
       <tbody>
         <tr>
-          <td style="padding:0px 0px 18px 0px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center">Es por ello que te decimos ${msgRecomendacion}.</div><div></div></div></td>
+          <td style="padding:0px 0px 18px 0px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center">${msgRecomendacion}.</div><div></div></div></td>
         </tr>
       </tbody>
     </table><table border="0" cellpadding="0" cellspacing="0" class="module" data-role="module-button" data-type="button" role="module" style="table-layout:fixed;" width="100%" data-muid="4bcb53df-57db-48a5-9aa3-4060ac494a64.1">
