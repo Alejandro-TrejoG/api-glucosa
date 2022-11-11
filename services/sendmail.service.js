@@ -5,7 +5,7 @@ const sgMail = require('@sendgrid/mail')
 class SendMail {
 
     sendTo(objInfo) {
-        sgMail.setApiKey("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")
+        sgMail.setApiKey(process.env.SENDGRID_APY_KEY)
         const msg = {
             to: objInfo.correo, // Change to your recipient
             from: 'trejoga48h@gmail.com', // Change to your verified sender
