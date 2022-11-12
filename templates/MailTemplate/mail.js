@@ -179,7 +179,7 @@ const HTMLmail = (nombre, tipoMuestra, concentracion) => {
     </table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="6cf92250-86a4-41d8-865a-ae5fb2569556.1" data-mc-module-version="2019-10-22">
       <tbody>
         <tr>
-          <td style="padding:0px 0px 18px 0px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center">Las concentraciones que tienes de glucosa son de ${concentracion} mmol/L, esto obtenido gracias a una muestra ${tipoMuestra}</div>
+          <td style="padding:0px 0px 18px 0px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center">Las concentraciones que tienes de glucosa es de ${concentracion} mmol/L, esto obtenido gracias a una muestra ${tipoMuestra}</div>
   <div style="font-family: inherit; text-align: center"> </div><div></div></div></td>
         </tr>
       </tbody>
