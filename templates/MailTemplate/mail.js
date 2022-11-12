@@ -5,9 +5,9 @@ const msgPorEncima = "La concentración de glucosa presentada en la muestra esta
 const HTMLmail = (nombre, tipoMuestra, concentracion) => {
 
   let msgRecomendacion
-  if (concentracion < 3.5) {
+  if (concentracion < 2) {
     msgRecomendacion = msgPorDebajo
-  } else if (concentracion > 5.5) {
+  } else if (concentracion > 2) {
     msgRecomendacion = msgPorEncima
   } else {
     msgRecomendacion = msgNormal
